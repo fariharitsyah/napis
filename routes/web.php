@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/fari', function () {
+    return view('fari');
+});
 Route::get('/', function () {
     return view('welcome');
 });
